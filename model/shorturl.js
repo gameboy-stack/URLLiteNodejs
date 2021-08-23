@@ -14,7 +14,7 @@ const shorturlSchema = new Schema({
         type:String,
         required:true
     }
-});
+}); // schema structure
 
 const ShortURL = mongoose.model("development",shorturlSchema);
 
