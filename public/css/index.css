@@ -1,0 +1,33 @@
+.aligncenter {
+    margin: 0;
+    position: absolute;
+    width: 45%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.errorcls{
+    text-align: center;
+}
+
+#urlinput{
+    box-shadow: none;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p{
+    color: #ccc;
+}
+
+.nameofwebapp{
+    text-align: center;
+}
