@@ -20,7 +20,6 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })  //
     .then(app.listen(8080))
     .catch(err => console.log(err));
 
-
 app.get('/', (req,res) => {
 
     res.render("index",{year:(new Date()).getFullYear()});

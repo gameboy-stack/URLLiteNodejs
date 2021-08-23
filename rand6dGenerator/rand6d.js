@@ -25,4 +25,3 @@ const getRand6d = async () => {
 }};
 
 module.exports.get6d = getRand6d;
-
