@@ -18,7 +18,7 @@ const getRand6d = async () => {
         for ( var i = 0; i < length; i++ ) {
             result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
         }
-        if(!(result in usedRand6d)){
+        if(!(usedRand6d.includes(result))){
             flag=false;
             return result;
         }
